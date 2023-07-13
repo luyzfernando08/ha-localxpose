@@ -1,0 +1,7 @@
+configuration:
+  command: 
+    name: Comando
+    description: Interface de linha de comando
+  token:
+    name: Token da LocalXpose
+    description: Token da sua conta LocalXpose

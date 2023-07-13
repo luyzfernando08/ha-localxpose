@@ -1,0 +1,7 @@
+configuration:
+  command: 
+    name: Command
+    description: LocalXpose Command Line Interface
+  token:
+    name: LocalXpose Access Token
+    description: Access token
