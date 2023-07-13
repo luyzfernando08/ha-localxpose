@@ -1,0 +1,13 @@
+name: "LocalXpose"
+description: "LocalXpose add-on"
+version: "0.0.1"
+slug: "local_xpose"
+init: false
+arch:
+  - i386
+options:
+  command: ""
+  token: ""
+schema:
+  command: str?
+  token: password
