@@ -11,7 +11,8 @@
 
 1. Add the Github repo to your Hass.io: <https://github.com/luyzfernando08/ha-localxpose>
 2. Install the addon
-4. Configure the options in the addon (command line and token).
+3. Configure the options in the addon (token).
+4. Add a <a href="https://localxpose.io/docs/cli/config.yaml" rel="LocalXpose">configuration file </a> in the Home Assistant folder: `/config/local-xpose`
 5. Add this addon to your `trusted_proxies` list in `configuration.yaml`.
 
     ```yaml
@@ -29,12 +30,3 @@
 
 6. Start the addon
 7. Restart Home Assistant Core
-
-Example add-on configuration:
-
-```yaml
-  command: >-
-    tunnel http --to http://xxx.xxx.xx.x --reserved-domain
-    my-sub-domain.loclx.io --https-redirect
-  token: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
