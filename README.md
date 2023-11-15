@@ -12,7 +12,7 @@
 1. Add the Github repo to your Hass.io: <https://github.com/luyzfernando08/ha-localxpose>
 2. Install the addon
 3. Configure the options in the addon (token).
-4. Add a <a href="https://localxpose.io/docs/cli/config.yaml" rel="LocalXpose">configuration file </a> in the Home Assistant folder: `/config/local-xpose/config.yaml`
+4. Add a <a href="https://localxpose.io/docs/cli/config.yaml" rel="LocalXpose">configuration file </a> in the <a href="https://developers.home-assistant.io/docs/add-ons/configuration#add-on-advanced-options">Addon Config</a> folder: `/addon_configs/XXXX_local_xpose/config.yaml`
 5. Add this addon to your `trusted_proxies` list in `configuration.yaml`.
 
     ```yaml

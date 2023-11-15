@@ -2,4 +2,4 @@
 echo "Starting"
 loclx --version
 export ACCESS_TOKEN=$(bashio::config 'token')
-loclx tunnel config -f /config/local-xpose/config.yaml 
+loclx tunnel config -f /config/config.yaml 

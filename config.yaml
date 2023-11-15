@@ -1,10 +1,10 @@
 name: "LocalXpose"
 description: "LocalXpose add-on"
-version: "0.0.2"
+version: "0.0.3"
 slug: "local_xpose"
 init: false
 map:
-  - config
+  - addon_config
 arch:
   - i386
 options:
