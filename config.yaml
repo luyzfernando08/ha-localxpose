@@ -1,6 +1,6 @@
 name: "LocalXpose"
 description: "LocalXpose add-on"
-version: "0.0.4"
+version: "0.0.5"
 slug: "local_xpose"
 init: false
 webui: http://[HOST]:[PORT:54537]
@@ -9,6 +9,9 @@ ports:
 host_network: true
 map:
   - addon_config
+  - media
+  - backup
+  - share
 arch:
   - i386
 options:
